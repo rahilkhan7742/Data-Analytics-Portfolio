@@ -36,7 +36,6 @@ An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) 
 2. Dashboard Visuals: 
    * Open the .pbix file in Power BI Desktop to inspect data models, DAX measures, and visual layouts.
 
----
 
 📌 Conclusion: Consumers and manufacturers are shifting rapidly toward pure electric tech. Hybrids are acting as a temporary bridge, not the long-term destination.
 
@@ -50,7 +49,7 @@ An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) 
 
 
 
-
+ --- 
 
 
 #Project 2:Hotel Revenue Leakage & Cancellation Analysis (SQL + Power BI)

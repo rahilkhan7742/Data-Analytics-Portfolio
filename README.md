@@ -52,8 +52,7 @@ An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) 
  --- 
 
 
-#Project 2:Hotel Revenue Leakage & Cancellation Analysis (SQL + Power BI)
-
+# Project 2:Hotel Revenue Leakage & Cancellation Analysis (SQL + Power BI)
 
 ##  Executive Project Summary
 This project delivers an end-to-end analytics solution addressing financial leakage, booking cancellations, and customer tier performance for a hospitality portfolio. Using SQL MySQL for data extraction/transformation and Power BI for visual reporting, raw transaction data was transformed into actionable operational insights.

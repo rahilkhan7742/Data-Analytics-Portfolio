@@ -1,7 +1,7 @@
 # Data-Analytics-Portfolio
 # Project 1: EV Market & Adoption Analysis 
 
-An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance, and regulatory compliance risks across EV manufacturers.
+An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance, 
 
 ## Tools Used
 - Power Query (data cleaning)

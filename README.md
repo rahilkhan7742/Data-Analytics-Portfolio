@@ -1,7 +1,7 @@
 # Data-Analytics-Portfolio
 # Project 1: EV Market & Adoption Analysis 
 
-An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance, 
+An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance.
 
 ## Tools Used
 - Power Query (data cleaning)
@@ -11,14 +11,14 @@ An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) 
 ## Dataset
 - Source: Washington State Electric Vehicle Population Data 
 - Records analyzed: 109K+ (at time of download; source dataset 
-  updates periodically, so current record count may different)
+  updates periodically, so current record count may be differ.
 - Key fields used: Make, Model Year, City, State,  Clean Alternative Fuel Vehicle (CAFV) Eligibility, 
   Electric Range
 
 ---
 ## Key Findings
 - Tesla is the leading manufacturer, with a 46% share (49,941 vehicles) of the analyzed dataset
-- Top adopting cities: Seattle, Bellevue, Redmond, Vancouver, Kirkland — all within Washington State
+- Top adoption  cities: Seattle, Bellevue, Redmond, Vancouver, Kirkland — all within Washington State
 - CAFV eligibility: 53.54% eligible, 32.92% eligibility unknown (due to missing/incomplete battery-range data), 13.54% not 
   eligible due to low battery range
   
@@ -81,7 +81,7 @@ building skills.
 - Cancellation rate: 28.72% (1,440 total cancellations)
 - Potential lost revenue from cancellations: $427K
 - Top booking channel by revenue: Velora.com, followed by GDS and "At the hotel"
-- Revenue by loyalty tier: Non-member segment contributed the  highest revenue ($518.11K), followed by Essential ($277.91K), 
+- Revenue by loyalty tier: Non-Member segment contributed the  highest revenue ($518.11K), followed by Essential ($277.91K), 
   Preferred ($144.24K), Premier ($114.88K), Select ($114.33K),  Elite ($106.53K), and Iconic ($49.36K)
 - Most cancellations occurred for bookings made less than a week  before the stay date (lead time analysis)
 - Monthly potential lost revenue peaked in October 2024

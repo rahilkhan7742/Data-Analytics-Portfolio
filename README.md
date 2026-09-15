@@ -11,7 +11,7 @@ An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) 
 ## Dataset
 - Source: Washington State Electric Vehicle Population Data 
 - Records analyzed: 109K+ (at time of download; source dataset 
-  updates periodically, so current record count may differ)
+  updates periodically, so current record count may different)
 - Key fields used: Make, Model Year, City, State,  Clean Alternative Fuel Vehicl (CAFV) Eligibility, 
   Electric Range
 

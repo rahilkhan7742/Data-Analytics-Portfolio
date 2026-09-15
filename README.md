@@ -1,26 +1,30 @@
 # Data-Analytics-Portfolio
-# Project 1: EV Market & Brand Compliance Analysis 
+# Project 1: EV Market & Adoption Analysis 
 
-An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance, and regulatory compliance risks across EV manufacturers.
+An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) registration records using MySQL and Power BI. This project evaluates brand dominance, technology adoption rates (BEV vs. PHEV), battery range performance, and regulatory compliance risks across EV manufacturers.
 
+## Tools Used
+- Power Query (data cleaning)
+- SQL (querying and analysis)
+- Power BI (DAX Functions,dashboard design)
 
-## Tech Stack & Tools Used
-* Database Engine: MySQL Workbench
-* Analytics & Visualization: Power BI Desktop
-* Querying Techniques: CTEs, Window Functions (DENSE_RANK, ROW_NUMBER, LAG), Aggregations, Conditional Logic (CASE, COALESCE)
-* Data Modeling: DAX (Data Analysis Expressions), Custom Calculated Columns & Measures
+## Dataset
+- Source: Washington State Electric Vehicle Population Data 
+- Records analyzed: 109K+ (at time of download; source dataset 
+  updates periodically, so current record count may differ)
+- Key fields used: Make, Model Year, City, State, CAFV Eligibility, 
+  Electric Range
 
 ---
-
-## 💡 Key Business Insights
-
-* Market Monopoly vs. Regulatory Compliance Risk:
-  * Tesla dominates the overall EV landscape with a 45.62% market share. However, it holds a CAFV Eligibility Rate of only 51.14%.
-  * Data auditing reveals that legacy manufacturers lead in verified compliance: Nissan (87.27%) and Chevrolet (87.11%) show near-perfect eligibility rates, proving a stronger alignment with verified battery-range criteria.
-
-* EV Technology Split & Range Performance Gap:
-  * The market shows high adoption of BEVs (75.65%) over PHEVs.
-  * Custom DAX calculations reveal that BEVs deliver an average electric range of 193.51 miles, compared to just 30.95 miles for PHEVs—a crucial factor driving consumer choice toward pure electrics.
+## Key Findings
+- Tesla is the leading manufacturer, with a 46% share (49,941 vehicles) of the analyzed dataset
+- Top adopting cities: Seattle, Bellevue, Redmond, Vancouver, Kirkland — all within Washington State
+- CAFV eligibility: 53.54% eligible, 32.92% eligibility unknown (due to missing/incomplete battery-range data), 13.54% not 
+  eligible due to low battery range
+  
+ EV Technology Split & Range Performance Gap:
+   -The market shows high adoption of BEVs (75.65%) over PHEVs.
+  - Custom DAX calculations reveal that BEVs deliver an average electric range of 193.51 miles, compared to just 30.95 miles for PHEVs—a crucial factor driving consumer choice toward pure electrics.
 
 * Heavy Volume Bias in Top Manufacturers:
   * The top 3 brands (Tesla, Nissan, and Chevrolet) control ~66.5% of the total EV market share, highlighting a steep gap between early market leaders and emerging competitors.
@@ -28,7 +32,7 @@ An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) 
 ---
 
 
-## 🚀 How to Replicate This Project
+##  How to Replicate This Project
 
 1. Database Setup: 
    * Import the dataset into MySQL Workbench under the table name electric_vehicle_population.
@@ -52,30 +56,47 @@ An end-to-end Data Analytics project analyzing over 150K+ Electric Vehicle (EV) 
  --- 
 
 
-# Project 2:Hotel Revenue Leakage & Cancellation Analysis (SQL + Power BI)
+# Project 2:Hotel Booking & Cancellation Analysis (SQL + Power BI)
 
-##  Executive Project Summary
-This project delivers an end-to-end analytics solution addressing financial leakage, booking cancellations, and customer tier performance for a hospitality portfolio. Using SQL MySQL for data extraction/transformation and Power BI for visual reporting, raw transaction data was transformed into actionable operational insights.
 
----
+## Overview
+This is a personal portfolio project analyzing hotel booking and cancellation data using SQL and Power BI. This is NOT based on a 
+real client engagement — it uses a public sample  hotel booking dataset to demonstrate data cleaning, analysis, and dashboard-
+building skills.
 
-## 📊 Core Business KPIs
-* Total Booking Volume: 5K Bookings
-* Total Realized Revenue: $1.33M
-* Total Room Nights: 9K Nights
-* Total Cancellations: 1.44K Bookings
-* Overall Cancellation Rate: 28.72%
-* Direct Revenue Loss: $427K (due to cancellations)
+## Dataset
+- Source: Random Dataset Downloaded
+- Records analyzed: 5,000 bookings
+- Key fields used: Booking Channel, Status, Loyalty Level, 
+  Booking Value, Cancellation Status, Lead Time
 
----
+## Tools Used
+- SQL (analysis and querying)
+- Power Query (data cleaning)
+- Power BI (Charts, DAX, dashboard design)
 
-## 🛠️ End-to-End Analytics Workflow
+## Key Findings
+- Total booking value: $1.33M across 5,000 bookings
+- Total room nights: 9,000
+- Cancellation rate: 28.72% (1,440 total cancellations)
+- Potential lost revenue from cancellations: $427K
+- Top booking channel by revenue: Velora.com, followed by GDS and "At the hotel"
+- Revenue by loyalty tier: Non-member segment contributed the  highest revenue ($518.11K), followed by Essential ($277.91K), 
+  Preferred ($144.24K), Premier ($114.88K), Select ($114.33K),  Elite ($106.53K), and Iconic ($49.36K)
+- Most cancellations occurred for bookings made less than a week  before the stay date (lead time analysis)
+- Monthly potential lost revenue peaked in October 2024
 
-​63% Loss Leakage via 2 Channels: Out of $427K total lost revenue, Velora.com (31.89%) and GDS (31.08%) account for ~$270K (~63%) of all lost revenue.
+## How "Potential Lost Revenue" Was Calculated
+Potential Lost Revenue = CALCULATE(SUM(bookings[Revenue]),bookings[Status] = "Cancelled")
 
-​High-Volume Non-Member Reliance: Non-member accounts bring the largest revenue share ($518.11K), but registered tiers (Essential $277.91K, Premier $114.88K) deliver higher daily rate consistency.
+## Assumptions & Limitations
+- Cancelled bookings are treated as potential revenue loss. This figure does NOT confirm actual business loss — cancelled rooms 
+  may have been resold, in which case the real revenue impact would be lower.
+- Findings are based on the dataset above and are not from a real client engagement.
+- Data covers September 1, 2024 – November 4, 2024 only.
 
-​Last-Minute Cancellation Risk: Over 2,500+ bookings occur within 1 week of arrival, making short lead times the highest operational threat for drop-offs
+
+
 
 
 

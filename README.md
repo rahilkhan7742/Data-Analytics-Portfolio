@@ -93,7 +93,7 @@ Potential Lost Revenue = CALCULATE(SUM(bookings[Revenue]),bookings[Status] = "Ca
 - Cancelled bookings are treated as potential revenue loss. This figure does NOT confirm actual business loss — cancelled rooms 
   may have been resold, in which case the real revenue impact would be lower.
 - Findings are based on the dataset above and are not from a real client engagement.
-- Data covers September 1, 2024 – November 4, 2024 only.
+
 
 
 

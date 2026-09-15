@@ -86,7 +86,7 @@ building skills.
 - Most cancellations occurred for bookings made less than a week  before the stay date (lead time analysis)
 - Monthly potential lost revenue peaked in October 2024
 
-## How "Potential Lost Revenue" Was Calculated
+## How Potential Lost Revenue Was Calculated
 Potential Lost Revenue = CALCULATE(SUM(bookings[Revenue]),bookings[Status] = "Cancelled")
 
 ## Assumptions & Limitations

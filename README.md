@@ -87,7 +87,12 @@ building skills.
 - Monthly potential lost revenue peaked in October 2024
 
 ## How Potential Lost Revenue Was Calculated
-Potential Lost Revenue = CALCULATE(SUM(bookings[Revenue]),bookings[Status] = "Cancelled")
+
+Potential Lost Revenue = 
+CALCULATE(
+    SUM(bookings[Revenue]),
+    bookings[Status] = "Cancelled"
+)
 
 ## Assumptions & Limitations
 - Cancelled bookings are treated as potential revenue loss. This figure does NOT confirm actual business loss — cancelled rooms 

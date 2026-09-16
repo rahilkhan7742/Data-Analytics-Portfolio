@@ -6,7 +6,7 @@ An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) 
 ## Tools Used
 - Power Query (data cleaning)
 - SQL (querying and analysis)
-- Power BI (DAX Functions,dashboard design)
+- Power BI (DAX Functions, dashboard design)
 
 ## Dataset
 - Source: Washington State Electric Vehicle Population Data 

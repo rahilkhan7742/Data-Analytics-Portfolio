@@ -21,8 +21,7 @@ An end-to-end Data Analytics project analyzing over 109K+ Electric Vehicle (EV) 
 - CAFV eligibility: 53.54% eligible, 32.92% eligibility unknown (due to missing/incomplete battery-range data), 13.54% not 
   eligible due to low battery range
   
- EV Technology Split & Range Performance Gap:
-   -The market shows high adoption of BEVs (75.65%) over PHEVs.
+ EV Technology Split & Range Performance Gap:-The market shows high adoption of BEVs (75.65%) over PHEVs.
   - Custom DAX calculations reveal that BEVs deliver an average electric range of 193.51 miles, compared to just 30.95 miles for PHEVs—a crucial factor driving consumer choice toward pure electrics.
 
 * Heavy Volume Bias in Top Manufacturers:

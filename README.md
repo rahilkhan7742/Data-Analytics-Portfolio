@@ -63,7 +63,7 @@ real client engagement — it uses a public sample  hotel booking dataset to dem
 building skills.
 
 ## Dataset
-- Source: Random Dataset Downloaded
+- Source: Dataset included in Hotel-Booking-Analysis/
 - Records analyzed: 5,000 bookings
 - Key fields used: Booking Channel, Status, Loyalty Level, 
   Booking Value, Cancellation Status, Lead Time

@@ -74,7 +74,7 @@ building skills.
 - Power BI (Charts, DAX, dashboard design)
 
 ## Key Findings
-- Total booking value: $1.33M across 5,000 bookings
+- Total Revenue & Booking : $1.33M across & 5,000 bookings
 - Total room nights: 9,000
 - Cancellation rate: 28.72% (1,440 total cancellations)
 - Potential lost revenue from cancellations: $427K
